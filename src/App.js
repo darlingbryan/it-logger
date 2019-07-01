@@ -6,6 +6,8 @@ import Logs from './components/logs/Logs'
 import AddBtn from './components/layout/AddBtn'
 import AddLogModal from './components/logs/AddLogModal'
 import EditLogModal from './components/logs/EditLogModal'
+import AddTechModal from './components/tech/AddTechModal'
+import Techs from './components/tech/Techs'
 
 const App = () => {
   useEffect(() => {
@@ -17,6 +19,8 @@ const App = () => {
       <SearchBar />
       <AddLogModal />
       <EditLogModal />
+      <AddTechModal />
+      <Techs />
       <Logs />
       <AddBtn />
     </Fragment>
